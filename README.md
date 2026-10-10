@@ -3,6 +3,10 @@
 বাংলাদেশের প্রয়োজনীয় পণ্য — চাল, ডাল, তেল, সবজি, মাছ, মাংস, ডিম-দুধ ও মসলার আজকের বাজারদর এক নজরে দেখার ওয়েব অ্যাপ।
 *A Bangla market-price tracker built with Next.js, Tailwind CSS and BetterAuth.*
 
+## 🌐 Live Demo
+
+[View Live Website](https://bazardor-ten-kappa.vercel.app/)
+
 ## ✨ Key Features
 1. **Live price ticker** — infinite marquee with emoji, price and ▲/▼ change %.
 2. **Risers & fallers** — top 6 price increases and decreases of the day, plus all products in a responsive grid.
