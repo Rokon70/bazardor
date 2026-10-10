@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body { @apply bg-page text-neutral-900 antialiased; }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-6xl px-4; }
+  .card { @apply rounded-2xl border border-line bg-card; }
+  .input { @apply w-full rounded-lg border border-line bg-card px-3 py-2.5 text-sm outline-none transition focus:border-brand focus:ring-2 focus:ring-brand/20; }
+  .btn-primary { @apply inline-flex items-center justify-center rounded-lg bg-brand px-4 py-2 text-sm font-medium text-white shadow-md shadow-brand/30 transition hover:bg-brand-dark disabled:opacity-60 sm:py-2.5; }
+  .btn-outline { @apply inline-flex items-center justify-center rounded-lg border border-line bg-card px-4 py-2 text-sm font-medium transition hover:bg-neutral-100 disabled:opacity-60 sm:py-2.5; }
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+.ticker:hover > div { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) { .animate-marquee { animation: none; } }
